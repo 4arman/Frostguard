@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'font-default';
+  src: url('./assets/fonts/almendra.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'font-game-title';
+  src: url('./assets/fonts/icekingdom.otf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'font-default';
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+*::selection {
+  display: none;
+}
+
+*:-moz-drag-over {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 15px;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d6d80;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30b2e1;
+  border-radius: 100px;
+  border: 1.5px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #217ea0;
+}
